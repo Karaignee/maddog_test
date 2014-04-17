@@ -1,0 +1,37 @@
+html {width:100%}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;background:#DDDCDE}
+a {color:#ED3E4F;}
+a:hover {text-decoration:none}
+.column {float:left}
+
+/***** slider *****/
+
+
+/***** header *****/
+
+
+
+/***** content *****/
+
+.box {
+	width:100%;
+	color:#614043;
+
+
+.search_section {
+	width:100%;
+	color:#614043;
+
+}
+	.box .padding {padding:25px 10px 0 30px}
+	.box-bg {
+		width:100%;
+		padding-bottom:24px;
+	}
+
+
+
+
+
+
+
