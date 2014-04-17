@@ -3,66 +3,75 @@
 	<head>
 		<title></title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="#" type="text/css">
+		<link rel="stylesheet" href="maddog_test.css" type="text/css">
+		<link href=’http://fonts.googleapis.com/css?family=Merriweather&#8217;rel=’stylesheet’ type=’text/css’>		
 		<!--cufon for slider?-->
 	</head>
 	<body >
 <!-- header -->
 <header>
-	<div>
-		<div>
-			<strong>LOGO</strong>
-		</div>
+	<div id="headroom">
+
 		<nav>
-			<ul>
-			<li><a href="#">one</a></li>	
-			<li><a href="#">two</a></li>
-			<li><a href="#">three</a></li>
-			<li><a href="#">four</a></li>
-			<li><a href="#">five</a></li>
+			<ul class="menu">
+			<li><a href="#"><strong>LOGO</strong></a></li>	
+			<li><a href="#">What's on</a></li>
+			<li><a href="#">Shop/Dine</a></li>
+			<li><a href="#">What's the story</a></li>
+			<li><a href="#">Get Around</a></li>
+			<br>
 			<li>social media icons</li>
 			</ul>
 
 		</nav>
-
+		<div class="slider">
+			<ul class="items">
+				<li><img src="/assets/photo1.png" alt="" /></li>
+				<li><img src="/assets/photo4.png" alt="" /></li>
+			</ul>
+		</div>
 
 	</div>
 
-	<div class="banner">
-		
-	</div>
+
 
 </header>
 
 <!-- main content-->
+<section id="content">
+	<h1>what's on now</h1>
 <div class="wrapper">
-	<aside>
-		<h4>what's on</h4>
-	</aside>
-
-<div class="column">
-	<div class="box">
-			1
+	<div class="column-1">
+		<div class="box">
+			<img src="../light1.png" alt="light image"/>
+		</div>
 	</div>
-</div>
 
-<div class="column">
-	<div class="box">
-			2
+	<div class="column-1">
+	2
 	</div>
+
+<div class="column-2">
+	<p><strong>Find:</strong></p>
+	<form action="demo_form.asp">
+ 	 <input type="text" name="search" placeholder="search"><br>
+ 	 <p>or</p>
+ 	 <input type="text"  placeholder="I'm interested in"><br>
+ 	 <input type="text"  placeholder="When"><br>
+
+ 	 <input type="submit" value="search">
+</form>
 </div>
+
 
 </div>
 
-<div class="search_section">
-	find header, search box and search by dropdowns
-</div>
-
+</section>
 
 
 <!--footer-->
 	<footer>
-	<div > oh wait, there is no footer? </div>
+
 	</footer>
 
 	</body>
