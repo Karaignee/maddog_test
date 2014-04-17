@@ -1,78 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title></title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="maddog_test.css" type="text/css">
-		<link href=’http://fonts.googleapis.com/css?family=Merriweather&#8217;rel=’stylesheet’ type=’text/css’>		
-		<!--cufon for slider?-->
-	</head>
-	<body >
-<!-- header -->
-<header>
-	<div id="headroom">
+html {width:100%}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;background:#DDDCDE}
+a {color:#ED3E4F;}
+a:hover {text-decoration:none}
 
-		<nav>
-			<ul class="menu">
-			<li><a href="#"><strong>LOGO</strong></a></li>	
-			<li><a href="#">What's on</a></li>
-			<li><a href="#">Shop/Dine</a></li>
-			<li><a href="#">What's the story</a></li>
-			<li><a href="#">Get Around</a></li>
-			<br>
-			<li>social media icons</li>
-			</ul>
+/***** slider *****/
 
-		</nav>
-		<div class="slider">
-			<ul class="items">
-				<li><img src="/assets/photo1.png" alt="" /></li>
-				<li><img src="/assets/photo4.png" alt="" /></li>
-			</ul>
-		</div>
-
-	</div>
+.slider-inner {padding-left:284px}
+.slider {
+	position:relative;
+	float:right;
+}
+.items {display:none}
 
 
 
-</header>
 
-<!-- main content-->
-<section id="content">
-	<h1>what's on now</h1>
-<div class="wrapper">
-	<div class="column-1">
-		<div class="box">
-			<img src="../light1.png" alt="light image"/>
-		</div>
-	</div>
+/***** header *****/
 
-	<div class="column-1">
-	2
-	</div>
+#headroom {
+	width: 100%;
+	height: 400px;
+}
 
-<div class="column-2">
-	<p><strong>Find:</strong></p>
-	<form action="demo_form.asp">
- 	 <input type="text" name="search" placeholder="search"><br>
- 	 <p>or</p>
- 	 <input type="text"  placeholder="I'm interested in"><br>
- 	 <input type="text"  placeholder="When"><br>
+.menu li {
+	float:left;
+	position:relative;
+	padding-right:2px;
+	list-style-type:none;
 
- 	 <input type="submit" value="search">
-</form>
-</div>
+}
+
+.menu li a {
+	display:block;
+	line-height:2em;
+	padding:6px 64px 8px 65px;
+	color:#414061;
+	text-transform:capitalize;
+	letter-spacing:-1px;
+	background:#EB2F58;
+}
 
 
-</div>
+/***** content *****/
 
-</section>
+.wrapper {width:100%; overflow:hidden; position:relative}
+.column-1 {width:326px; height:160px; margin-right:21px; border: solid; float: left}
+
+.column-2 {width:326px; background-color: #F7F0F2;  float: right; border-bottom: 1px solid #aaa;}
+.indent {padding:21px 0 20px}
+#content {padding:10px 0 33px}
+.box .padding {padding:18px 10px 0 30px}
+img.med {height: 40; width: 40;}
+
+img.small {}
 
 
-<!--footer-->
-	<footer>
 
-	</footer>
 
-	</body>
-</html>
+
+
+
